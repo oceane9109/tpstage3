@@ -1,0 +1,52 @@
+body{
+   background-image:url(wall.jpg) ;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-top: 70px;
+}
+.photo{
+    display: flex;
+}
+.ul .a{
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 20px;
+    
+}
+header{
+    text-align: center;
+    
+}
+.leftside{
+    height: auto ;
+    width: 100%;
+    background-color: rgb(255, 251, 251);
+    color: black;
+}
+.rightside{
+    height: 400px;
+    width: 800px;
+    background-color: rgb(255, 251, 251);
+    color: black;
+    margin-left: 25px;
+}
+.leftside .img1{
+    margin-top: 15px;
+    margin-left: 15px;
+    width: 96%;
+    height: 400px;
+    box-shadow: 3px 3px 4px 4px rgb(39, 30, 30);
+}
+.leftside .img2{
+   margin-top: 15px;
+   margin-left: 15px;
+    width: 96%;
+    height: 400px;
+}
+footer{
+    background-color: rgb(196, 193, 193);
+    text-align: center;
+}
+a{
+    color: darkgoldenrod;
+}

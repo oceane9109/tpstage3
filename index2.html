@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+        <form method="post" action="tp stage.php">
+            <h2 style="text-align: center;">FORMULAIRES D'INSCRIPTION </h2>
+            <p> <label for="nom">Nom:</label><input id="nom" type="text" name="name"placeholder="Entrer votre nom"/></p> <br>
+            <p><label for="prenom">prenom:</label> <input id="nom" type="text" name="name"placeholder="Entrer votre nom"/></p> <br>
+            <p>Date de naissance : <input type="date" name="date"></p><br>
+            <p>lieu de naissance : <input type="text" name="lieu" placeholder="Entrer votre lieu de naissance"></p><br>
+            <p>E-mail:<input type="email" name="E-mail" placeholder="Entrer votre Email"/></p> <br>
+            <p>Mot de passe:<input type="password" name="mot de passe" value="" size="10" maxlength="20"/></p><br>
+            <p>sexe:<input type="radio" name="sexe" value="M"/>Masculin<input type="radio" name="sexe" value="F"/>Feminin<input type="radio" name="sexe" value="R"/> robot</p><br>
+            <p>Adresse:<input type="text" name="lieu" ></p><br>
+            <p>Code postal:<input type="text" name="lieu" ></p><br>
+            <p>Langue parlee:
+            <select name="langue">
+                <option value="E"> Espagnol</option>
+                <option value="F"> francais</option>
+                <option value="A"> Anglais</option>
+                <option value="A"> Arabe</option>
+                <option value="P"> portuguais</option>
+                <option value="C"> chinois</option>
+                <option value="A"> Allemand</option>
+            </select></p><br>
+            <p>Ville de residence:
+            <select name="ville">
+                <option value="E"> yaounde</option>
+                <option value="F"> douala</option>
+                <option value="A"> bafoussam</option>
+                <option value="A"> paris</option>
+                <option value="P"> maeseliie</option>
+                <option value="C"> bruxelles</option>
+                <option value="A"> dakar</option>
+            </select></p><br>
+            <select name="fuits preferes" multiple="multiple">
+                <option value="A"> ananas</option>
+                <option value="O">orange</option>
+                <option value="P"> papaye</option>
+                <option value="M"> mangue</option>
+                <option value="PA"> pasteque</option>
+                <option value="B"> banane</option>
+                <option value="F"> fraises</option>
+            </select><br>
+            <h3>Info complementaires</h3>
+            <p><textarea name="commentaires" rows="6" cols="60"></textarea></p><br>
+            <input type="submit" value="Envoyer"/><input type="reset" value="Effacer"/><input type="button" value="juste un essai"/>
+        </form>
+</body>
+</html>

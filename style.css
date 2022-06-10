@@ -1,0 +1,15 @@
+table{
+    border-collapse: collapse;
+}
+th{
+    border: 1px solid black;
+    text-align: center;
+    background-color: rgba(236, 228, 228, 0.945);
+}
+td{
+    border: 1px solid black;
+    text-align: center;
+}
+caption{
+    border: 1px solid black;   
+}
